@@ -1,7 +1,7 @@
 {
-  "name": "koa-es7-boilerplate",
-  "version": "0.2.1",
-  "description": "A boilerplate for writing Koa 2 apps in ES7 with Babel.",
+  "name": "hybrid",
+  "version": "0.0.1",
+  "description": "Some nicely written server-first react with passport authentication",
   "scripts": {
     "start": "node dist/bin/server.js",
     "build": "babel src -d dist -s",
@@ -13,10 +13,13 @@
     "lint": "eslint src/ test/",
     "lint-watch": "esw -w src/ test/"
   },
-  "author": "Jeff Hansen",
+  "author": "David Marr",
   "contributors": [
     {
       "name": "Jon West"
+    },
+    {
+      "name": "David Marr"
     }
   ],
   "license": "MIT",
@@ -29,11 +32,15 @@
     "babel-preset-stage-1": "^6.5.0",
     "babel-register": "^6.5.1",
     "glob": "^7.0.0",
-    "kcors": "^1.0.1",
+    "kcors": "^2.0.0",
     "koa": "^2.0.0-alpha.3",
     "koa-bodyparser": "^3.0.0",
     "koa-convert": "^1.2.0",
+    "koa-generic-session": "^1.10.1",
+    "koa-passport": "^2.0.1",
     "koa-router": "^7.0.1",
+    "passport-oauth2": "^1.2.0",
+    "pouchdb": "^5.3.0",
     "source-map-support": "^0.4.0",
     "yenv": "^0.2.0"
   },
